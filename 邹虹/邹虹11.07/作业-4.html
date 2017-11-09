@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var aa=prompt("输入工作年份");
+        var bb=prompt("输入年薪");
+        if(aa==0){
+            if(bb<=8000){
+                alert("你可以有"+bb+"年终奖");
+            }else if(bb>8000){
+                alert("你可以有"+1.2*bb+"年终奖");
+            }
+        }
+        if(aa==1){
+            if(bb<=10000){
+                alert("你可以有"+1.5*bb+"年终奖");
+            }else if(bb>10000){
+                alert("你可以有"+1.7*bb+"年终奖");
+            }
+        }
+        if(aa==2){
+            if(bb<=12000){
+                alert("你可以有"+3*bb+"年终奖");
+            }else if(bb>12000){
+                alert("你可以有"+3.2*bb+"年终奖");
+            }
+        }
+    </script>
+</body>
+</html>
