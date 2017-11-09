@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseFloat(prompt("请输入年份："));
+        var b = a % 400;
+        var c = a % 100;
+        var d = a % 4;
+        if (b == 0) {
+            alert('此年为闰年')
+        } else if (c != 0 && d == 0) {
+            alert('此年为闰年')
+        } else {
+            alert('此年非闰年')
+        }
+    </script>
+</body>
+
+</html>

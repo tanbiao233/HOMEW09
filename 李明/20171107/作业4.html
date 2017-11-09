@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseFloat(prompt("请输入工作年限"));
+        var b = parseFloat(prompt("请输入月薪"));
+        if (a < 1 && b < 8000) {
+            alert('年终奖：' + b)
+        } else if (a < 1 && b > 8000) {
+            alert('年终奖：' + (1.2 * b))
+        } else if (1 < a || a == 1 && a < 2 && b < 10000) {
+            alert('年终奖：' + (1.5 * b))
+        } else if (1 < a || a == 1 && a < 2 && b > 10000) {
+            alert('年终奖：' + (1.7 * b))
+        } else if (a > 2 || a == 2 && b < 12000) {
+            alert('年终奖：' + (3 * b))
+        } else if (a > 2 || a == 2 && b > 12000) {
+            alert('年终奖：' + (3.2 * b))
+        }
+    </script>
+</body>
+
+</html>
