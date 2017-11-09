@@ -1,0 +1,6 @@
+// var box=parseInt(prompt("ÇëÊäÈëÊı×Ö"));
+// var num=1;
+// for(var i=1; i<=box; i++){
+// 	num+=i;
+// }
+// document.write(num);

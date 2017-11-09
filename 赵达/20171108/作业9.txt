@@ -1,0 +1,13 @@
+ <script>
+        for(var p = 1;p<=10000; p++){
+            var one=0;
+            for(var w =1;w<=p;w++){
+                if (p % b == 0){
+                    one++;
+                }
+            }
+            if(one=== 2){ 
+                console.log(p);
+            }
+        }
+    </script>

@@ -1,0 +1,25 @@
+     
+<script>
+
+    var box=parseInt(prompt("请输入年份"));
+//    var jann=parseInt(prompt("请输入月薪"));
+//    if((box<=0)&&(jann<8000)){
+//         alert("年终奖是:"+jann);
+//       
+//      }else if((box<=0)&&(jann>8000)){
+//           alert("你的年中奖是:"+jann*1.2);
+//          
+//      
+//       }else if((box>=1)&&(jann<10000)){
+//            alert("你的年中奖是:"+jann*1.5);
+//           
+//       }else if((box>=1)&&(jann>10000)){
+//            alert("你的年中奖是:"+jann*1.7);
+//           
+//       }else if((box>=2)&&(jann<12000)){
+//            alert("你的年中奖是:"+jann*3);
+//           
+//       }else{
+//            alert("你的年中奖是:"+jann*3.2);
+//    
+</script>

@@ -1,0 +1,7 @@
+<script>
+        for(var q = 1;q <= 60; q++){
+            if(q % 7 !==0 && q % 10 q==7){
+                console.log(q+"</br>");
+            }
+        }
+    </script>
