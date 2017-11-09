@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        document.write('1~10000所有完美数：' + '<br>');
+        var a, b = 1,
+            c = 0;
+        for (a = 1; a <= 10000; a++) {
+            c = 0;
+            for (b = 1; b < a; b++) {
+                if (a % b == 0 && a != b) {
+                    c = c + b;
+                }
+            }
+            if (a == c) {
+                document.write(a + '<br>');
+            }
+        }
+    </script>
+</body>
+
+</html>
