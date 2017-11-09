@@ -1,0 +1,12 @@
+  <script type="text/javascript">
+//   var box=prompt("请输入");
+//   var num=prompt("请输入");
+//
+//    if(box%2<=0&&num%2<=0){
+//           alert("这两个数是相同的都是偶数");
+//       
+//       }else{
+//           alert("这两个数都是奇数");
+//           
+//       };
+</script>

@@ -1,0 +1,12 @@
+for(var i = 1;i<=10000;i++){
+            var b = 0;
+            for(var a = 1; a<=i;a++){
+                if(i % a ==0 && i!=a){
+
+                    b = b + a;
+                } 
+            }  
+            if(b==i){
+                    console.log(i);
+                }
+        }
