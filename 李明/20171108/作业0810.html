@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        document.write('所有购买可能性为：' + '<br>')
+
+
+        for (var a = 0; a <= 100; a++) {
+            for (var b = 0; b <= 100; b++) {
+                for (var c = 0; c <= 100; c++) {
+                    if (3 * a + 2 * b + 1 * c == 200 && a + b + c == 100) {
+                        document.write(a + " " + b + " " + c + '<br>')
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
